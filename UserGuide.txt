@@ -1,0 +1,6 @@
+User guide:
+1. Install apk onto android device
+2. launch apk and enter a Battlenet used id in the following format (name-number)
+3. browse statistcs and radar graph
+4. swipe from right to look at menu
+5. look at coach page

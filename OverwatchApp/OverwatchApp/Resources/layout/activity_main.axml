@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/myCoordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+		<RelativeLayout
+			
+			
+			android:id="@+id/relativeLayout1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#6412a8"
+			>
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			android:id="@+id/BNetID"
+			android:textColor="#ffffff"
+			android:layout_centerInParent="true"
+			android:singleLine="true" />
+			<ImageView
+				android:src="@drawable/OverwatchBluelogo"
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:layout_marginBottom="30dp"
+				android:layout_above="@id/BNetID"
+				android:layout_centerHorizontal="true"
+				android:id="@+id/LogoImage" />
+				<TextView
+				android:text="Please Enter You BattleNet ID"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_above="@id/BNetID"
+				android:background="#6412a8"
+				android:textSize="15sp"
+				android:layout_marginTop="90dp"
+				android:id="@+id/textView1"
+				android:editable="false"
+				android:enabled="true"
+				android:singleLine="true"
+				android:gravity="center"
+				android:textColor="#ffffff"
+				android:textColorHighlight="#ffffff"
+				/>
+
+			<Button
+				android:text="Submit"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/BNetID"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:backgroundTint="#5f5d60"
+				android:textColor="#ffffff"
+				android:id="@+id/SubmitBtn" />
+	
+		</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
